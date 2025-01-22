@@ -1,6 +1,6 @@
 package com.example.bookshop.repository
 
-import com.example.book.model.Book
+import com.example.bookshop.entity.User
 import org.springframework.data.jpa.repository.JpaRepository
-//
-//interface BookRepository : JpaRepository<Book, Long>
+
+interface UserRepository : JpaRepository<User, Long>

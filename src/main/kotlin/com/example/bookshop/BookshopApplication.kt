@@ -9,3 +9,4 @@ class BookshopApplication
 fun main(args: Array<String>) {
     runApplication<BookshopApplication>(*args)
 }
+

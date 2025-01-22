@@ -1,5 +1,3 @@
-
-
 package com.example.bookshop.controller
 
 import com.example.book.model.Book
@@ -12,7 +10,7 @@ import org.springframework.web.bind.annotation.*
 class BookshopController(private val bookRepository: BookRepository) {
 
     @PostMapping
-    fun addBook(@RequestBody bookRequest: BookRequest):Book {
+    fun addBook(@RequestBody bookRequest: BookRequest): Book {
         val book = Book(
             title = bookRequest.title,
             author = bookRequest.author,
